@@ -1,0 +1,39 @@
+body{
+}
+
+a{
+	color: #18dcff;
+}
+
+a:hover{
+	color: #17c0eb;
+}
+/*From mdn*/
+.centered{ 
+	height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centered i{
+	width: 10em;
+}
+
+.round{
+	height: 150px;
+	width: 150px;
+	margin: 10px auto;
+	border: 1px solid #17c0eb; 
+	border-radius: 50%;
+}
+
+.round:hover{
+	color: #fff;
+	background: #17c0eb;
+	transition: 0.5s;
+}
+.yourElement {
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
